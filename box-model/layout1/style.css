@@ -1,0 +1,19 @@
+.header, .footer {
+    height: 70px;
+    width: 400px;
+    background-color: powderblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-post {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+

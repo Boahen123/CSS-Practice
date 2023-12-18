@@ -1,0 +1,37 @@
+.box {
+  width: 250px;
+  height: 250px;
+  margin: 48px;
+  background-color: lightblue;
+}
+
+.box:hover {
+  background-color: lightcoral;
+  transition-property: background-color;
+  transition-duration: 5000ms;
+  transition: background-color 3s ease-in;
+}
+
+.box-2 {
+  width: 250px;
+  height: 250px;
+  margin: 48px;
+  background-color: bisque;
+  transition: background-color 3s ease-in;
+}
+
+.box-2:hover {
+  background-color: lightgreen;
+}
+.box-3 {
+  width: 250px;
+  height: 250px;
+  margin: 48px;
+  background-color: bisque;
+  transition: background-color 3s ease-in, border-radius 3s ease-in;
+}
+
+.box-3:hover {
+  background-color: lightgreen;
+  border-radius: 150px;
+}

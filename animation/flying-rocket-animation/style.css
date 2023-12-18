@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-image: url('https://img.freepik.com/free-vector/nature-scene-night-with-meadow-landscape-mountain-background_1308-61406.jpg');
+    background-size: cover;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: fly 5s ease-in forwards;
+}
+
+@keyframes fly {
+    0% {
+        transform: translate(-50%, 0);
+    }
+
+    100% {
+        transform: translate(-50%, -100vh);
+    }
+    
+}

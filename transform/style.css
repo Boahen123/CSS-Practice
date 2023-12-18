@@ -1,0 +1,13 @@
+.box {
+  background-color: magenta;
+  width: 150px;
+  height: 150px;
+  /* margin-left: 15%;
+  margin-top: 15%; */
+
+  position: absolute;
+  top: 50%;
+  /* transform: ; */
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

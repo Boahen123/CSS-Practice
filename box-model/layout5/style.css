@@ -1,0 +1,163 @@
+body {
+  /* overflow: hidden; */
+  font-family: Arial, sans-serif, Helvetica;
+}
+
+a {
+  text-decoration: none;
+   color: rgba(0, 0, 0, .87);
+  font-family: sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 13px;
+}
+
+li {
+  display: inline;
+  margin: 5px;
+}
+
+.menu-item {
+    position: relative;
+    top: -15px;
+}
+
+.nav-links {
+  text-align: right;
+}
+
+.main-body {
+  margin: 150px;
+  text-align: center;
+}
+
+.google-logo {
+  text-align: center;
+}
+
+input {
+ color: #222;
+  border-radius: 20px;
+  width: 55%;
+  padding: 0.7%;
+  margin-top: 30px;
+  border: 1px solid #dfe1e5;
+}
+
+input:hover {
+    box-shadow: 0 1px 6px 0 rgba(3, 33, 36, 0.28);
+    border-color: rgba(223,225,229, 0.5);
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 1px 6px 0 rgba(3, 33, 36, 0.28);
+    border-color: rgba(223,225,229, 0.5);
+}
+
+.input-wrapper {
+    position: relative;
+    /* border: 1px solid black; */
+}
+
+
+#mic {
+  position: absolute;
+  /* border: 1px solid black; */
+  width: 25px;
+  background-size: contain;
+  top: 32px;
+  right: 23%;
+
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  border: 1px solid transparent;
+  box-shadow: 0 1px 1px rgba(0, 0, 0,0);
+  padding: 7px;
+  background-color: #f2f2f2;
+  background-image: linear-gradient(#f5f5f5,#f1f1f1 );
+
+}
+
+button:hover {
+  border: 1px solid #c6c6c6;
+  background-image: linear-gradient(#f8f8f8, #f1f1f1);
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+button:first-of-type {
+    margin-right: 16px;
+}
+
+
+.material-symbols-outlined {
+    position: relative;
+    top: -12px;
+    cursor: pointer;
+}
+
+.material-symbols-outlined:hover {
+    color: #1a73e8;
+    
+}
+
+#app-dropdown {
+    /* width:280px; */
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    display: inline-block;
+    position: absolute;
+    right: 60px;
+    top: 60px;
+    display: none;
+}
+
+.dropdown-wrapper {
+  display: inline-block;
+
+}
+
+.dropdown-wrapper:hover #app-dropdown {
+  display: block;
+}
+
+.app-item {
+   display: inline-block;
+   width: 60px;
+   margin: 8px;
+
+}
+
+.app-item:hover {
+    box-shadow: 0 1px 6px 0 rgba(3, 33, 36, 0.28);
+    border: 1px solid rgba(223,225,229, 0.5);
+    border-radius: 10px;
+
+}
+
+.app-item > img {
+    width: 50px;
+    height: 50px;
+}
+
+.app-item > p {
+  color: rgba(0, 0, 0, .87);
+}
+
+.first-three {
+  float: left;
+}
+

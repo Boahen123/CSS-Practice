@@ -1,0 +1,70 @@
+/* Section 2 styles */
+
+#section-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    'step-one step-two step-three step-four'
+    'step-one step-two step-three step-four'
+    'step-one step-two step-three step-four'
+    'step-one step-two step-three step-four';
+  color: #f5f7f8;
+}
+
+.step-name {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.step-desc {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.icon {
+  padding: 20px;
+  font-size: 96px;
+  margin-top: 30px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step-1 {
+  grid-area: step-one;
+  background-color: #5acda6;
+}
+
+.step-2 {
+  grid-area: step-two;
+  background-color: #91ac41;
+}
+
+.step-3 {
+  grid-area: step-three;
+  background-color: #e4b476;
+}
+
+.step-4 {
+  grid-area: step-four;
+  background-color: #ff69da;
+}
+
+@media (max-width: 700px) {
+  #section-2 {
+    width: 100%;
+    grid-template-areas:
+      'step-one step-one step-two step-two '
+      'step-three step-three step-four step-four '
+      ;
+  }
+}

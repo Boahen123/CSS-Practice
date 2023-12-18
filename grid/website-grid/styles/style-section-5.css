@@ -1,0 +1,62 @@
+#section-5 {
+  background-image: url(https://mobirise.com/extensions/organicamp/assets/images/19.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  position: relative;
+}
+
+.overlay {
+  background-color: gray;
+  background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 30%;
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.follow {
+  width: 50%;
+  text-align: left;
+  font-weight: 600;
+}
+
+.desc {
+  width: 50%;
+  text-align: left;
+}
+
+.your-name {
+  align-self: center;
+  margin: 10px;
+  text-align: left;
+  padding-block: 0;
+  padding-inline: 0;
+  padding: 0;
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.sub-button {
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+}
+.subscribe {
+  background-color: #f69dad;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  font-weight: bolder;
+  color: white;
+}

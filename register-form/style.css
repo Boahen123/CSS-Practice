@@ -1,0 +1,74 @@
+body {
+    background-color: lightskyblue;
+    overflow: hidden;
+}
+
+form {
+    background-color: white;
+    padding: 50px;
+    display: inline-block;
+    /* margin: 0 auto; */
+    width: 30%;
+    position: relative;
+    left: 450px;
+}
+
+h1.register {
+    position: relative;
+    left: 580px;
+}
+
+input {
+    width: 85%;
+    padding: 4px 4px;
+    margin: 10px;
+    border: 1.5px solid rbga(0, 0, 0, 0.1);
+    border-radius: 3px;
+
+}
+
+input.email {
+    background-color: lightgrey;
+}
+
+input:focus:required {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+input:focus {
+    background-color: lightblue;
+}
+
+input:disabled {
+    cursor: not-allowed;
+}
+input[type="checkbox"] {
+    width: 10%;
+    margin-top: 1px;
+    display: inline;
+    float: left;
+
+}
+
+
+
+.agree-text {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin-top: 25px;
+    background-color: lightblue;
+    width: 89%;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightskyblue;
+}

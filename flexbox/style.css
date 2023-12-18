@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.item {
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    background-color: pink;
+    /* flex-grow: 1; */
+    flex-basis: 120px;
+}
+
+/* .item:nth-child(2) {
+    background-color: bisque;
+    flex-grow: 0;
+    flex-shrink: 2;
+    order: 0;
+} */
+
+
+.item:nth-child(even) {
+    background-color: bisque;
+    align-self: center;
+}
+
+.item:nth-child(odd) {
+    background-color: aqua;
+    align-self: flex-start;
+}
+#container {
+    width: 100vw;
+    background-color: chocolate;
+    /* align-items: stretch; */
+    /* justify-content: stretch; */
+    height: 500px;
+    box-sizing: border-box;
+    padding:30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

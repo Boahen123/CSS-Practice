@@ -1,0 +1,35 @@
+.header,
+.footer {
+  height: 70px;
+  width: 400px;
+  background-color: powderblue;
+}
+
+.article {
+  height: 200px;
+  width: 200px;
+  background-color: coral;
+  margin: 10px 10px 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.other-posts {
+    /* background-color: red; */
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px 10px 10px 0;
+}
+
+.blog-post {
+  height: 50px;
+  width: 100px;
+  background-color: coral;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
