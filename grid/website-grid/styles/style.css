@@ -16,6 +16,13 @@
 /* Section 6 styles */
 @import url("./style-section-6.css");
 
+
+/* Section  7 styles */
+@import url("./style-section-7.css");
+
+/* Section  8 styles */
+@import url("./style-section-8.css");
+
 * {
   box-sizing: border-box;
 }
