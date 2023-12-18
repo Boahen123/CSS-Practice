@@ -13,6 +13,9 @@
 /* Section 5 styles */
 @import url("./style-section-5.css");
 
+/* Section 6 styles */
+@import url("./style-section-6.css");
+
 * {
   box-sizing: border-box;
 }

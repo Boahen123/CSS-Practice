@@ -1,0 +1,22 @@
+#section-6 {
+    background-color: #f6fcfa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+#section-6 div {
+    text-align: center;
+    margin: 30px;
+}
+
+#section-6 span {
+    color: #57e3b5;
+}
+
+#section-6 p {
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+}
