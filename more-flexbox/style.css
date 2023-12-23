@@ -1,51 +1,58 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .container {
-    border: 6px solid black;
-    display: flex;
+  border: 6px solid black;
+  display: flex;
 }
 
 .flex-item {
-    color: white;
-    font-size: 1.5rem;
-    padding: 1rem;
-    text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 .item-1 {
-    background-color: #b4bf35;
+  background-color: #b4bf35;
+  order: 1;
+  /* padding-bottom: 3rem; */
 }
 
 .item-2 {
-    background-color: #b95f21;
+  background-color: #b95f21;
+  /* padding-bottom: 5rem; */
 }
 
 .item-3 {
-    background-color: #1c4c56;
+  background-color: #1c4c56;
+  /* font-size: 3rem; */
 }
 
 .item-4 {
-    background-color: #b4bf35;
+  background-color: #b4bf35;
 }
 
 .item-5 {
-    background-color: #b95f21;
+  background-color: #b95f21;
+  flex-grow: 1;
 }
 
 .item-6 {
-    background-color: #1c4c56;
+  background-color: #1c4c56;
+  flex-grow: 3;
 }
 
 .item-7 {
-    background-color: #b4bf35;
+  background-color: #b4bf35;
+  order: 2;
 }
 
 .item-8 {
-    background-color: #b95f21;
+  background-color: #b95f21;
 }
 
 .item-9 {
-    background-color: #1c4c56;
+  background-color: #1c4c56;
 }
