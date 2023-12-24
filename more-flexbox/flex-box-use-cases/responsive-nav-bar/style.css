@@ -26,3 +26,12 @@ nav ul li:hover {
     background-color: #555;
     color: white;
 }
+
+@media all and (max-width: 400px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        text-align: center;
+    }
+}
