@@ -1,0 +1,18 @@
+.out {
+    display: grid;
+    padding: 10px;
+    background-color:  wheat;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+
+.out > div {
+    background-color: blueviolet;
+    font-size: 20px;
+    text-align: center;
+}
+
+.item1 {
+    grid-area: 1 / 2 / span 2 / span 3 ;
+
+}
