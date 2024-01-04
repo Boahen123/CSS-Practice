@@ -1,0 +1,36 @@
+// Styles for the topbar
+$topbar-bgcolor: #1e2024;
+$topbar-textcolor: #6c757d;
+$topbar-fontfamily: 'Montserrat', sans-serif;
+$active-color: #fff;
+$full-width: 100%;
+
+@mixin cursorpointer() {
+  cursor: pointer;
+}
+
+.topbar {
+  display: flex;
+  align-items: flex-start;
+  width: $full-width;
+  background-color: $topbar-bgcolor;
+  color: $topbar-textcolor;
+  font-family: $topbar-fontfamily;
+  font-size: 14px;
+  gap: 10px 10px;
+  padding: 10px;
+
+  .topbar__item {
+    border-right: 2px solid #6c757d;
+    padding: 10px;
+    @include cursorpointer();
+  }
+}
+
+.topbar__item--active {
+  color: $active-color;
+}
+
+.topbar__item:hover {
+  color: $active-color;
+}

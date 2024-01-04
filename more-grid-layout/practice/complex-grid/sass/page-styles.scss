@@ -1,5 +1,16 @@
+@use 'topbar';
+@use 'logo';
+@use 'nav';
 
+$body-color: lightgrey;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
- 
+  width: topbar.$full-width;
+  background-color: $body-color;
 }

@@ -1,0 +1,30 @@
+// Styles for the navigation bar
+@use 'topbar';
+@use 'logo';
+
+nav {
+  background-color: topbar.$topbar-bgcolor;
+  width: topbar.$full-width;
+}
+
+.nav {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #1e2024;
+  color: #fff;
+  font-weight: 10px;
+  list-style-type: none;
+  margin: auto;
+  font-family: topbar.$topbar-fontfamily;
+  font-size: 16px;
+}
+
+.nav__item {
+  padding: 10px;
+  @include topbar.cursorpointer();
+
+  &:hover {
+    color: logo.$logo-color;
+  }
+}

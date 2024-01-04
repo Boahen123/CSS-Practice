@@ -1,0 +1,23 @@
+// Styles for the logo
+@use 'topbar';
+$logo-color: #ffc107;
+
+.logo {
+  width: topbar.$full-width;
+  background-color: topbar.$active-color;
+  margin: auto;
+  font-size: 50px;
+  padding: 0.5rem;
+}
+
+.logo__biz {
+  font-family: Arial;
+  font-weight: bolder;
+  color: $logo-color;
+  margin-left: 2rem;
+}
+
+.logo__news {
+  font-family: topbar.$topbar-fontfamily;
+  color: #6c757d;
+}
