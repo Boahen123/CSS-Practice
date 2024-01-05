@@ -1,0 +1,92 @@
+// Styles for section -1
+@use 'topbar';
+@use 'logo';
+
+.image1 {
+  margin: 10px;
+}
+
+section {
+  display: flex;
+}
+
+.highlight {
+  display: grid;
+  margin: 10px;
+  width: 65%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px 10px;
+}
+
+.highlight__item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.highlight__item--title {
+  display: flex;
+  margin: 5px;
+  align-items: center;
+}
+
+@mixin background-prop() {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.highlight__item--1 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 10) 100%
+    ),
+    url(../assets/news-700x435-1.jpg);
+  @include background-prop();
+}
+.highlight__item--2 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 10) 100%
+    ),
+    url(../assets/news-700x435-2.jpg);
+  @include background-prop();
+}
+
+.highlight__item--3 {
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 10) 100%
+    ),
+    url(../assets/news-700x435-3.jpg);
+  @include background-prop();
+}
+.highlight__item--4 {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 10) 100%
+    ),
+    url(../assets/news-700x435-4.jpg);
+  @include background-prop();
+}
+
+.highlight__item--subtitle {
+  margin: 5px;
+  color: topbar.$active-color;
+}
+
+.date {
+  margin-left: 5px;
+  color: topbar.$active-color;
+}
+
+.business {
+  background-color: logo.$logo-color;
+  padding: 5px;
+}
