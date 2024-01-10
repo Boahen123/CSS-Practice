@@ -18,6 +18,9 @@ nav {
   margin: auto;
   font-family: topbar.$topbar-fontfamily;
   font-size: 16px;
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 }
 
 .nav__item {

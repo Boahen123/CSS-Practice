@@ -8,6 +8,10 @@
 
 section {
   display: flex;
+  @media (max-width: 500px) {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .highlight {
@@ -17,6 +21,7 @@ section {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 10px 10px;
+  grid-auto-flow: column;
 }
 
 .highlight__item {

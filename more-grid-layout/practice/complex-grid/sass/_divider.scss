@@ -1,0 +1,23 @@
+@use 'topbar';
+@use 'logo';
+
+.divider {
+  display: flex;
+  align-items: center;
+  width: topbar.$full-width;
+  background-color: black;
+  padding: 10px;
+}
+
+.divider__item--1 {
+  background-color: logo.$logo-color;
+  padding: 5px;
+  margin-left: 2rem;
+}
+
+.divider__item--2 {
+  margin-left: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
